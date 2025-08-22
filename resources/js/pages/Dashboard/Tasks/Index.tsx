@@ -89,7 +89,7 @@ const tableHeaders: string[] = [
     "Actions",
 ];
 
-const breadCrumbs: BreadcrumbItem[] = [{ title: "Tasks", href: "/tasks" }];
+const breadCrumbs: BreadcrumbItem[] = [{ title: "Tasks", href: "/dashboard/tasks" }];
 
 export default function Index({
     tasks,

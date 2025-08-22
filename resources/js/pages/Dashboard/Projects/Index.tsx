@@ -42,7 +42,7 @@ interface IProjectIndexProps {
 const breadCrumbs: BreadcrumbItem[] = [
     {
         title: "Projects",
-        href: "/projects",
+        href: "dashboard/projects",
     },
 ];
 export default function Index({ projects, flash }: IProjectIndexProps) {
