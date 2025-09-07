@@ -47,7 +47,7 @@ export default function Dashboard({
         const now = new Date();
         const currentHour = now.getHours();
 
-        return currentHour >= 6 && currentHour < 12
+        return currentHour >= 0 && currentHour < 12
             ? "Good morning"
             : currentHour >= 12 && currentHour < 18
               ? "Good afternoon"
